@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(244, 246, 246, 0.95);
+}
+
+#headerTotal{
+   display: flex;
+   flex-direction: row;
+}
+
+#imagenLogo{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+#headerTitle{
+    font-size: 60px;
+    margin: auto;
+    text-align: center;
+    margin-left: 80px;
+    font-family: 'Hind Madurai';
+    color: #0086C7;
+}
+
+#buttonsCabecera{
+    text-align: center;
+    font-family: 'Abel';
+    font-size: 60px;
+    margin: auto;
+    height: 100px;
+    height: 80px;  
+}
+
+#buttonsCabecera h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 80px;
+}
+
+#buttonsTotal{
+    display: flex;
+    flex-direction: column;
+    margin:auto  
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.button{
+    height: 100px;
+    width: 250px;
+    border-radius: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abel';
+    font-size: 30px;
+    font-weight: 200;
+}
+.button:hover{
+    box-shadow: 0px 0px 25px 9px rgba(0,134,199,0.85);
+}

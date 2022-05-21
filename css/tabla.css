@@ -8,7 +8,7 @@ h1{
     font-size: 60px;
     font-family: 'Abel';
     text-align: center;
-   text-decoration: underline;
+    text-decoration: underline;
 }
 
 h2{
@@ -40,11 +40,9 @@ table{
 }
 
 #tablaCalendario {
-
     display: flex;
     flex-direction: column;
-    
-}
+}  
 
 #botonIzquierda{
     margin-top: 620px;
@@ -61,11 +59,11 @@ h2 {
 }
 
 td,th, tr {
-border: 1px solid black;
-padding: 10px;
-height: 80px;
-font-size: 50px;
-text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
 } 
 
 table{
