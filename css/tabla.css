@@ -2,15 +2,34 @@
     box-sizing: border-box; 
 }
 
-body{
-    background-color: rgba(244, 246, 246, 0.95);
+#cabeceraCompleta{
+display: flex;
+flex-direction: column;
+}
+
+#logoReturnHome{
+width: 25%;
+}
+
+#titulo{
+  width: 100%;
+  text-align: center;
+}
+
+#imagenLogo{
+   width: 200px;
+   height:200px;
+   margin-left:15px;
 }
 
 h1{
-    font-size: 60px;
-    font-family: 'Abel';
-    text-align: center;
-    text-decoration: underline;
+  font-size: 60px;
+  font-family: 'Abel';
+  text-decoration: underline;
+}
+
+body{
+    background-color: rgba(244, 246, 246, 0.95);
 }
 
 h2{

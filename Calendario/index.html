@@ -14,289 +14,291 @@
 
 
     <title>Calendarios</title>
-
-<div id="titulo">
-    <h1 >Calendario de Empleado</h1>
-</div>
-
-    <div id="calendarioCompleto">
-    <div id="botonIzquierda">
-        <button class="btn btn-primary btn-arrow-left">  <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
-          </svg>
-        </button>
-</div>
-
-<div id="tablaCalendario">
-    <table id="tablaMes">
-            <h2>Calendario 2022 Pepito</h2>
-            <caption><h3>ENERO</h3></caption>
-        <tr>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miércoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-            <th>Sábado</th>
-            <th>Domingo</th>           
-        </tr>
-        <tr>
-            <td class="noStyle"></td>
-             <td class="noStyle"></td> 
-             <td class="noStyle"></td> 
-             <td id="test" class="laboral">1
-                 <div>
-                     <button type="button" class="open-modal" data-open="modal">Modificar</button>
-                </div>
-
-                 <div class="modal" id="modal" data-animation="slideInOutLeft">
-                    <div class="modal-dialog">
-                      <header>
-                        <div id="titleModel">
-                        Ajustes de Calendario
-                       </div>
-                        <button class="close-modal" aria-label="close modal" data-close><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                          </svg>
-                           
-                        </button>
-                        </header>
-
-
-                <div class="modal-content">
-
-                            <div id="diaNum_Let">
-                               <div id="diaEnModelLetra">
-                                 Día
-                               </div>
-                               <div id="diaEnModelNumero">
-                                 1
-                               </div>
-                            </div>
-
-                            <div id="boxCompleto">
-                                <div id="boxJornada">
-                                    <form>
-                                        <p>JORNADA</p>
-                                        <div>
-                                        <input id="a" type="radio" name="hopping" value="a" checked>
-                                        <label for="a"><span></span>06:00-12:00</label>
-                                        </div>
-                                        <div>
-                                        <input id="b" type="radio" name="hopping" value="b">
-                                        <label for="b"><span></span>12:00-20:00</label>
-                                        </div>
-                                        <div>
-                                        <input id="c" type="radio" name="hopping" value="c">
-                                        <label for="c"><span></span>20:00-04:00</label>
-                                       </div>
-                                </div>
-                               
-                            </form>
-
-                                <div id="boxEstado">
-                                    <form>
-                                        <p>ESTADO</p>
-                                        <div>
-                                        <input id="1" type="radio" name="hopping" value="1" checked>
-                                        <label for="1"><span></span>Activo</label>
-                                        </div>
-                                        <div>
-                                        <input id="2" type="radio" name="hopping" value="2">
-                                        <label for="2"><span></span>Baja</label>
-                                        </div>
-                                        <div>
-                                        <input id="3" type="radio" name="hopping" value="3">
-                                        <label for="3"><span></span>Vacaciones</label>
-                                       </div>
-
-                                </div>
-
-                            </div>
-                    
-                </div>
-            </div>
-        </div>
-            </td>
-            </div>
-        </div>
-            </td>
-            <td class="laboral">2
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td> 
-             
-             <td class="festivo">3
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td>
-             <td class="festivo">4
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td>
-        </tr>
-        <tr>
-            <td class="laboral">5
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-             <td class="laboral">6
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td> 
-             <td class="laboral">7
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td> 
-             <td class="laboral">8
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td> 
-             <td class="laboral">9
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td> 
-             <td class="festivo">10
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td> 
-             <td class="festivo">11
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-             </td>
-        </tr>
-        <tr>
-            <td class="laboral">12
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="laboral">13
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="laboral">14
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="laboral">15
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="laboral">16
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="festivo">17
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="festivo">18
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="laboral">19
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="laboral">20
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="laboral">21
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="laboral">22
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="laboral">23
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="festivo">24
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="festivo">25
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-        </tr>
-        <tr>
-            <td class="laboral">26
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-            <td class="laboral">27
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="laboral">28
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="laboral">29
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="laboral">30
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td>
-            <td class="festivo">31
-                <div>
-                    <button type="button" class="open-modal" data-open="modal1">Modificar</button>
-               </div>
-            </td> 
-        </tr>
-        
-    </table>
-</div>
-    <div id="botonDerecha">
-         <button class="btn btn-primary btn-arrow-left"> <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16" >
-        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-      </svg>
-    </button>
-    </div>
-    
-
-
+    <link id="favicon" rel="shortcut icon" type="image/x-icon" href="/imagenes/favicon.ico">
 
 </head>
 <body>
+    <header>
+    <div id="cabeceraCompleta">
+        <div id="logoReturnHome">
+            <a href="/index.html"><img id="imagenLogo" src="/imagenes/logoWeb.png" alt="Accesos Aplication Logo" title="logotipo de aplicación Accesos Once" ></a>
+          </div>
+        <div id="titulo">
+            <h1 >Calendario de Empleado</h1>
+        </div>
+        </div>
+    </header>
+    <div id="calendarioCompleto">
+        <div id="botonIzquierda">
+            <button class="btn btn-primary btn-arrow-left">  <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+              </svg>
+            </button>
+    </div>
     
+    <div id="tablaCalendario">
+        <table id="tablaMes">
+                <h2>Calendario 2022 Pepito</h2>
+                <caption><h3>ENERO</h3></caption>
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>           
+            </tr>
+            <tr>
+                <td class="noStyle"></td>
+                 <td class="noStyle"></td> 
+                 <td class="noStyle"></td> 
+                 <td id="test" class="laboral">1
+                     <div>
+                         <button type="button" class="open-modal" data-open="modal">Modificar</button>
+                    </div>
+    
+                     <div class="modal" id="modal" data-animation="slideInOutLeft">
+                        <div class="modal-dialog">
+                          <header>
+                            <div id="titleModel">
+                            Ajustes de Calendario
+                           </div>
+                            <button class="close-modal" aria-label="close modal" data-close><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                              </svg>
+                               
+                            </button>
+                            </header>
+    
+    
+                    <div class="modal-content">
+    
+                                <div id="diaNum_Let">
+                                   <div id="diaEnModelLetra">
+                                     Día
+                                   </div>
+                                   <div id="diaEnModelNumero">
+                                     1
+                                   </div>
+                                </div>
+    
+                                <div id="boxCompleto">
+                                    <div id="boxJornada">
+                                        <form>
+                                            <p>JORNADA</p>
+                                            <div>
+                                            <input id="a" type="radio" name="hopping" value="a" checked>
+                                            <label for="a"><span></span>06:00-12:00</label>
+                                            </div>
+                                            <div>
+                                            <input id="b" type="radio" name="hopping" value="b">
+                                            <label for="b"><span></span>12:00-20:00</label>
+                                            </div>
+                                            <div>
+                                            <input id="c" type="radio" name="hopping" value="c">
+                                            <label for="c"><span></span>20:00-04:00</label>
+                                           </div>
+                                    </div>
+                                   
+                                </form>
+    
+                                    <div id="boxEstado">
+                                        <form>
+                                            <p>ESTADO</p>
+                                            <div>
+                                            <input id="1" type="radio" name="hopping" value="1" checked>
+                                            <label for="1"><span></span>Activo</label>
+                                            </div>
+                                            <div>
+                                            <input id="2" type="radio" name="hopping" value="2">
+                                            <label for="2"><span></span>Baja</label>
+                                            </div>
+                                            <div>
+                                            <input id="3" type="radio" name="hopping" value="3">
+                                            <label for="3"><span></span>Vacaciones</label>
+                                           </div>
+    
+                                    </div>
+    
+                                </div>
+                        
+                    </div>
+                </div>
+            </div>
+                </td>
+                </div>
+            </div>
+                </td>
+                <td class="laboral">2
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td> 
+                 
+                 <td class="festivo">3
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td>
+                 <td class="festivo">4
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td>
+            </tr>
+            <tr>
+                <td class="laboral">5
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                 <td class="laboral">6
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td> 
+                 <td class="laboral">7
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td> 
+                 <td class="laboral">8
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td> 
+                 <td class="laboral">9
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td> 
+                 <td class="festivo">10
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td> 
+                 <td class="festivo">11
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                 </td>
+            </tr>
+            <tr>
+                <td class="laboral">12
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="laboral">13
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="laboral">14
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="laboral">15
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="laboral">16
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="festivo">17
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="festivo">18
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="laboral">19
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="laboral">20
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="laboral">21
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="laboral">22
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="laboral">23
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="festivo">24
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="festivo">25
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="laboral">26
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+                <td class="laboral">27
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="laboral">28
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="laboral">29
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="laboral">30
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td>
+                <td class="festivo">31
+                    <div>
+                        <button type="button" class="open-modal" data-open="modal1">Modificar</button>
+                   </div>
+                </td> 
+            </tr>
+            
+        </table>
+    </div>
+        <div id="botonDerecha">
+             <button class="btn btn-primary btn-arrow-left"> <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16" >
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg>
+        </button>
+        </div>
 </body>
 </html>
