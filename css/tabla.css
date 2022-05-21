@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box; 
 }
+
 body{
     background-color: rgba(244, 246, 246, 0.95);
 }
+
 h1{
     font-size: 60px;
     font-family: 'Abel';
@@ -96,8 +98,6 @@ td:hover:not(.noStyle){
 }
 */
 
-
-/*modal*/
 .modal {
     font-family: 'Abel';
     position: fixed;
@@ -110,11 +110,11 @@ td:hover:not(.noStyle){
     justify-content: center;
     visibility: hidden;
   }
+
   .modal header{
     font-size: 60px;
     text-decoration: underline;
   }
-  
  
   .modal.is-visible {
     visibility: visible;
@@ -124,7 +124,6 @@ td:hover:not(.noStyle){
   .modal-dialog {
     position: relative;
     box-shadow: 0px 3px 12px 13px rgba(109,109,109,0.96);
-    
     width: 1000px;
     height: 700px;
     background-color: rgb(244, 246, 246);
@@ -132,46 +131,44 @@ td:hover:not(.noStyle){
   }
 
   .modal-content{
-      height: 550px;
-      width: 930px;
-      margin-top: 10px;
-      display: flex;
-      flex-direction: row;
+    height: 550px;
+    width: 930px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
   }
 
   .close-modal{
-    
     top:10px;
     right:12px;
     position:absolute;
     cursor:pointer;
-   
     border-radius: 25%;
   }
 
   .open-modal{
-      width: 80px;
-      height: 30px;
+    width: 80px;
+    height: 30px;
   }
 
   #titleModel{
-margin-left: 180px;
+    margin-left: 180px;
   }
 
   #diaNum_Let{
-      display: flex;
-      flex-direction: column;
-      margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
 
   #diaEnModelLetra{
-margin-bottom: 0px;
-font-size: 40px;
+    margin-bottom: 0px;
+    font-size: 40px;
   }
 
   #diaEnModelNumero{
-      font-size: 400px;
-      margin-top: 0px;
+    font-size: 400px;
+    margin-top: 0px;
   }
 
   #boxCompleto{
@@ -199,17 +196,9 @@ font-size: 40px;
     width: 400px;
   }
 
-
-
-
-
-
-
-  /*css de radiobuttons*/
-
   input {
-      width: 25px;
-      height: 25px;
+    width: 25px;
+    height: 25px;
   }
  
   
