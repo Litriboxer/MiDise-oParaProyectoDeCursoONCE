@@ -82,6 +82,12 @@ body{
   font-weight: 200;
 }
 
+button:active:not(.close-modal){
+  font-size: 22px;
+  height: 95px;
+  width: 245px;
+}
+
 button:hover:not(.close-modal){
   box-shadow: 0px 0px 25px 1px rgb(0, 88, 167);
 }
@@ -205,18 +211,30 @@ input{
   text-align: center;
   font-size: 20px;
 }
+
+#botoninput{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20;
+}
+
+#botoninput:active{
+  width: 95px;
+  height: 45px;
+  font-size: 15px;
+ }
   
 #botonEnviarFormulario{
   margin-top: 75px;
   display: flex;
   justify-content: center;
+  font-size: 25px;
 }
- 
-  #botoninput{
-  width: 100px;
-  height: 50px;
-  border-radius: 20;
-}
+
+
+
+  
 
 
 

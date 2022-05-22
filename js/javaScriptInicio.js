@@ -28,3 +28,6 @@ document.addEventListener("keyup", e => {
     document.querySelector(".modal.is-visible").classList.remove(isVisible);
   }
 });
+
+var sonido = new Audio();
+sonido.src = sonido/clickSound.mp3;

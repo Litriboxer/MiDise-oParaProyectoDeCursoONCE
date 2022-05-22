@@ -72,9 +72,19 @@ table{
   margin-top: 650px;
 }
 
+#botonIzquierda:active{
+  width: 65px;
+  height: 65px;
+}
+
 #botonDerecha{
   margin:auto;
   margin-top: 650px;
+}
+
+#botonDerecha:active{
+  width: 65px;
+  height: 65px;
 }
 
 h2 {
@@ -171,7 +181,14 @@ td:hover:not(.noStyle){
   .open-modal{
   width: 80px;
   height: 30px;
+  font-size: 15px;
   }
+
+  .open-modal:active{
+    width: 75px;
+    height: 25px;
+    font-size: 12px;
+    }
 
   #titleModel{
   margin-left: 180px;
