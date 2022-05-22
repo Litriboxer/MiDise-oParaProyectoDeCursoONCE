@@ -29,5 +29,13 @@ document.addEventListener("keyup", e => {
   }
 });
 
-var sonido = new Audio();
-sonido.src = sonido/clickSound.mp3;
+//audio para botones
+let boton = document.querySelector(".reproductor")
+let audioEtiqueta = document.querySelector("audio")
+
+boton.addEventListener("click", () => {
+  audioEtiqueta.setAttribute("src", "/sonidos/clickSound.mp3")
+  audioEtiqueta.play()
+  console.log(`Reproduciendo: ${audioEtiqueta.src}`)
+})
+
