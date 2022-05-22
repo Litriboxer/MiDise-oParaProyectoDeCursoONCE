@@ -4,11 +4,12 @@
 
 body{
   background-color: rgba(244, 246, 246, 0.95);
-}
-
-#headerTotal{
   display: flex;
   flex-direction: row;
+}
+
+#headerLogo{
+  width: 25%;
 }
 
 #imagenLogo{
@@ -19,33 +20,44 @@ body{
 }
 
 #headerTitle{
-  font-size: 60px;
+  font-size: 50px;
   margin: auto;
   text-align: center;
-  margin-left: 80px;
+  width: 100%;
   font-family: 'Hind Madurai';
-  color: #0086C7;
 }
 
-#buttonsCabecera{
-  text-align: center;
-  font-family: 'Abel';
-  font-size: 60px;
-  margin: auto;
-  height: 100px;
-  height: 80px;  
+.textGradient{
+  background: linear-gradient(
+    180deg,
+    #a5c2d1,
+    #5683a9,
+    #005eab
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent
+}
+
+#buttonsTotal{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+ margin-left: 5%;
+  margin-top: 10%;
+  position: relative;
 }
 
 #buttonsCabecera h3{
   margin-top: 0px;
   margin-bottom: 0px;
   height: 80px;
-}
-
-#buttonsTotal{
-  display: flex;
-  flex-direction: column;
-  margin:auto  
+  text-align: center;
+  font-family: 'Abel';
+  font-size: 50px;
+  margin: auto;
+  height: 100px;
+  height: 80px;  
 }
 
 #buttons {
@@ -53,7 +65,7 @@ body{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
+  width: 100%;
   margin: auto;
   margin-top: 50px;
   height: 200px;
@@ -66,12 +78,12 @@ body{
   margin-left: auto;
   margin-right: auto;
   font-family: 'Abel';
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
 }
 
-button:hover, #botoninput:hover{
-  box-shadow: 0px 0px 25px 1px rgba(0,134,199,0.85);
+button:hover:not(.close-modal){
+  box-shadow: 0px 0px 25px 1px rgb(0, 88, 167);
 }
 
 .modal {
@@ -97,7 +109,7 @@ button:hover, #botoninput:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0px 0px 25px 1px  rgba(0,134,199,0.85);
+  box-shadow: 0px 0px 25px 1px rgb(0, 88, 167);
   width: 500px;
   height: 700px;
   background-color: rgb(244, 246, 246);
@@ -110,10 +122,38 @@ button:hover, #botoninput:hover{
   height: 25%;
   text-align: center;
   margin: auto;
+  color:#005eab;
   font-family: 'Abel';
   font-size: 80px;
   text-decoration: underline;
   }
+
+  .open-modal{
+    height: 100px;
+    width: 250px;
+    border-radius: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abel';
+    font-size: 30px;
+    font-weight: 200;
+    box-shadow: 0px 0px 10px 3px rgba(0, 87, 168, 0.791);
+    background-image: linear-gradient(135deg, #f8f8f8, #e6e6e6, #d5d5d5, #c1c1c1/*, #c0c0c0*/ );
+    background-size: 500%;
+    animation: backAnimado 3s infinite;
+    }
+  
+    @keyframes backAnimado{
+      0%{
+        background-position: 0% 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0% 50%;
+      }
+    }
 
   .close-modal{
   top:10px;
@@ -121,33 +161,6 @@ button:hover, #botoninput:hover{
   position:absolute;
   cursor:pointer;
   border-radius: 25%;
-  }
-
-  .open-modal{
-  height: 100px;
-  width: 250px;
-  border-radius: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Abel';
-  font-size: 30px;
-  font-weight: 200;
-  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.65);
-  background-image: linear-gradient(135deg, #f8f8f8, #e6e6e6, #d5d5d5, #c1c1c1/*, #c0c0c0*/ );
-  background-size: 500%;
-  animation: backAnimado 3s infinite;
-  }
-
-  @keyframes backAnimado{
-    0%{
-      background-position: 0% 50%;
-    }
-    50%{
-      background-position: 100% 50%;
-    }
-    100%{
-      background-position: 0% 50%;
-    }
   }
 
   #formularioBox{

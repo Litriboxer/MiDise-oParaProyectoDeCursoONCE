@@ -24,6 +24,7 @@ flex-direction: column;
 
 h1{
   font-size: 60px;
+  color:#005eab;
   font-family: 'Abel';
   text-decoration: underline;
 }
@@ -58,7 +59,7 @@ h3{
 }
 
 table{
-  box-shadow: -1px -1px 12px 12px rgba(0,0,0,0.41);
+  box-shadow: 0px 0px 25px 1px rgb(0, 88, 167); 
 }
 
 #tablaCalendario {
@@ -144,7 +145,7 @@ td:hover:not(.noStyle){
   
   .modal-dialog {
   position: relative;
-  box-shadow: 0px 3px 12px 13px rgba(109,109,109,0.96);
+  box-shadow: 0px 0px 25px 1px rgb(0, 88, 167); 
   width: 1000px;
   height: 700px;
   background-color: rgb(244, 246, 246);
@@ -174,6 +175,7 @@ td:hover:not(.noStyle){
 
   #titleModel{
   margin-left: 180px;
+  color:#005eab;
   }
 
   #diaNum_Let{
@@ -183,6 +185,7 @@ td:hover:not(.noStyle){
   }
 
   #diaEnModelLetra{
+  color:#005eab;
   margin-bottom: 0px;
   font-size: 40px;
   }
