@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Abel';
+    }
+  
+    body{
+      background-color: rgba(244, 246, 246, 0.95);
+    }
+    
+    #headerTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    #imagenLogo{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    }
+  @media (prefers-reduced-motion:no-preference){
+    .logo{
+      animation: logo-spin infinite 40s linear;
+    }
+  }
+  
+  @keyframes logo-spin{
+    from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-360deg);
+  }
+  
+  }
+  
+    #headerTitle{
+    font-size: 60px;
+    margin: auto;
+    text-align: center;
+    margin-left: 80px;
+    }
+  
+    .textGradient{
+      background: linear-gradient(
+        180deg,
+        #a5c2d1,
+        #5683a9,
+        #005eab
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent
+    }
+    
+  
+    hr{
+    background-color: rgb(234, 236, 236);
+    border-color: rgba(234, 236, 236, 0);
+    height: 7px;
+    color: transparent;
+    }
+  
+    #one{
+    box-shadow: 0px -17px 29px -2px rgba(0,0,0,0.6);
+    }
+  
+    #two{
+    box-shadow: 0px 17px 29px -2px rgba(0,0,0,0.6);
+    }
+  
+    .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-right: 50px;
+    }
+  
+    ul, ol {
+    list-style:none;
+    }
+  
+    .nav > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+  
+    .nav li a {
+    color:#000000;
+    text-decoration:none;
+    padding:10px 10px;
+    display:block;
+    }
+  
+    .nav li a:hover {
+    color:#005eab;
+    }
+  
+    .nav li ul {
+    display:none;
+    position:absolute;
+    }
+  
+    .nav li:hover > ul {
+    display:block;
+    }
+  
+    .separate{
+    margin: auto; 
+    }
+  
+    #footer{
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom:40px;
+    height:30px;
+    width:100%;
+    margin-top: 100px;
+    }
+  
+    #footer img:hover{
+      box-shadow: 0px 0px 25px 1px rgb(0, 88, 167); 
+    }
+  
+    #foottotal{
+    display: flex;
+    display: row;
+    width: 100%;  
+    }
+  
+    #onefoot{
+    margin:5px 0px 5px 50px;   
+    }
+  
+    #iconsFoot{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0; 
+    }
+  
+    #iconsFoot div{
+    margin:5px 20px 5px 0px;
+    padding: auto; 
+    }
+  
+    #twoofoot{
+    margin: 0px 50px 0px auto;
+    }
