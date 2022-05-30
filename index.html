@@ -1,113 +1,132 @@
 <!DOCTYPE html>
 <html lang="es-ES">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind+Madurai:wght@300&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/inicio.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind+Madurai:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/inicio.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
-    <script src="js/inicio.js" defer></script>
-    <script type="text/javascript"> </script>
-    
-    <title>Accesos Aplication Wellcome</title>
-    <link id="favicon" rel="shortcut icon" type="image/x-icon" href="multimedia/favicon.ico">
-    <audio src=""></audio>
-    
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+  <script src="js/inicio.js" defer></script>
+  <script type="text/javascript"> </script>
+
+  <title>Accesos Aplication Wellcome</title>
+  <link id="favicon" rel="shortcut icon" type="image/x-icon" href="multimedia/favicon.ico">
+  <audio src=""></audio>
+
 </head>
+
 <body>
   <header>
     <div id="headerTotal">
-      <div id="headerLogo">
-         <img class="logo" id="imagenLogo" src="multimedia/logoWeb.png" alt="Accesos Aplication Logo" title="logotipo de aplicación Accesos Once" >
-      </div>
+      <a href="multimedia/easterEgg.gif">
+        <div id="headerLogo">
+          <img class="logo" id="imagenLogo" src="multimedia/logoHuella.png" alt="Accesos Aplication Logo"
+            title="logotipo de aplicación Accesos Once">
+        </div>
+
+        <div id="lector">
+          <div class="move">
+            <hr id="lectorHuella" class="lector">
+          </div>
+        </div>
+      </a>
       <div id="headerTitle">
         <h1 class="textGradient">Access Aplication</h1>
       </div>
     </div>
   </header>
-        <div id="titleCabecera">
-            <h3>Selecciona tu perfil</h3>
-        </div>
-        <div id="buttons">
-           <div id="buttonEmpresa">
-               <button onclick="playOn();" class="open-modal"  data-open="modal">EMPRESA</button>
-           </div>
-           <div class="modal" id="modal" data-animation="slideInOutLeft">
-            <div class="modal-dialog">
-              <header id="headerModal">
-                <div id="tituloModal">
-                Log In
-               </div>
-               
-               <button onclick="playOn();" class="close-modal"  aria-label="close modal" data-close><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>  
-            </button>
-            </header>
-             <div id="formularioLog">
-                <form id="formularioBox" action="recepción.php" form="get">
-                <div id="cajaFormulario">
-                     <div id="usuarioFormulario">
-                       <label for="user">Usuario</label> &nbsp;
-                       <input type="text" name="usuario" id="user" placeholder="  Nombre de usuario" required>
-                     </div>
-                     <div id="contraseñaFormulario">
-                       <label for="pass">Contraseña</label> &nbsp;
-                       <input type="text" name="contraseña" id="pass" placeholder="  Escribe tu contraseña" required><br>
-                     </div>
-                     <div id="botonEnviarFormulario">
-                       <input onclick="playOn();" id="botoninput" type="submit" value="Enviar" >
-                     </div>
-                    </div>
-                </form>
-             </div>
-         </div>
-        </div>
-        <div id="buttonEmpresa">
-            <button onclick="playOn()" class="open-modal"  data-open="modal">TRABAJADOR</button>
-        </div>
-        <div class="modal " id="modal" data-animation="slideInOutLeft">
-            <div class="modal-dialog">
-              <header id="headerModal">
-                <div id="tituloModal">
-                Log In
-               </div>
-               <button onclick="playOn();" class="close-modal" aria-label="close modal" data-close><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg> 
-            </button>
-            </header>
-             <div id="formularioLog">
-                <form id="formularioBox" action="recepción.php" form="get">
-                <div id="cajaFormulario">
-                     <div id="usuarioFormulario">
-                       <label for="user">Usuario</label> &nbsp;
-                       <input type="text" name="usuario" id="user" placeholder="  Nombre de usuario" required>
-                     </div>
-                     <div id="contraseñaFormulario">
-                       <label for="pass">Contraseña</label> &nbsp;
-                       <input type="text" name="contraseña" id="pass" placeholder="  Escribe tu contraseña" required><br>
-                     </div>
-                     <div id="botonEnviarFormulario">
-                       <button onclick="playOn();" id="botoninput" type="submit" value="Enviar" ></button>
-
-                     </div>
-                    </div>
-                </form>
-             </div>
-         </div>
-        </div>
+  <div id="titleCabecera">
+    <h3>Selecciona tu perfil</h3>
+  </div>
+  <div id="buttons">
+    <div id="buttonEmpresa">
+      <button onclick="playOn();" class="open-modal" data-open="modal">EMPRESA</button>
     </div>
-</div>
+    <div class="modal" id="modal" data-animation="slideInOutLeft">
+      <div class="modal-dialog">
+        <header id="headerModal">
+          <div id="tituloModal">
+            Log In
+          </div>
+
+          <button onclick="playOn();" class="close-modal" aria-label="close modal" data-close><svg
+              xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-circle"
+              viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </button>
+        </header>
+        <div id="formularioLog">
+          <form id="formularioBox" action="recepción.php" form="get">
+            <div id="cajaFormulario">
+              <div id="usuarioFormulario">
+                <label for="user">Usuario</label> &nbsp;
+                <input type="text" name="usuario" id="user" placeholder="  Nombre de usuario" required>
+              </div>
+              <div id="contraseñaFormulario">
+                <label for="pass">Contraseña</label> &nbsp;
+                <input type="text" name="contraseña" id="pass" placeholder="  Escribe tu contraseña" required><br>
+              </div>
+              <div id="botonEnviarFormulario">
+                <input onclick="playOn();" id="botoninput" type="submit" value="Enviar">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="buttonEmpresa">
+      <button onclick="playOn()" class="open-modal" data-open="modal">TRABAJADOR</button>
+    </div>
+    <div class="modal " id="modal" data-animation="slideInOutLeft">
+      <div class="modal-dialog">
+        <header id="headerModal">
+          <div id="tituloModal">
+            Log In
+          </div>
+          <button onclick="playOn();" class="close-modal" aria-label="close modal" data-close><svg
+              xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-circle"
+              viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </button>
+        </header>
+        <div id="formularioLog">
+          <form id="formularioBox" action="recepción.php" form="get">
+            <div id="cajaFormulario">
+              <div id="usuarioFormulario">
+                <label for="user">Usuario</label> &nbsp;
+                <input type="text" name="usuario" id="user" placeholder="  Nombre de usuario" required>
+              </div>
+              <div id="contraseñaFormulario">
+                <label for="pass">Contraseña</label> &nbsp;
+                <input type="text" name="contraseña" id="pass" placeholder="  Escribe tu contraseña" required><br>
+              </div>
+              <div id="botonEnviarFormulario">
+                <button onclick="playOn();" id="botoninput" type="submit" value="Enviar"></button>
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
 </body>
+
 </html>
