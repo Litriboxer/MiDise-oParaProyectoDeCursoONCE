@@ -28,9 +28,3 @@ document.addEventListener("keyup", e => {
     document.querySelector(".modal.is-visible").classList.remove(isVisible);
   }
 });
-
-
-function playOn() {
-  var audio = new Audio("/multimedia/sonidos/clickSound.mp3");
-  audio.play();
-}

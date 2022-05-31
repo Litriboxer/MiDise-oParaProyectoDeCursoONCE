@@ -213,7 +213,7 @@ button:hover:not(.close-modal) {
   position: absolute;
   cursor: pointer;
   border-radius: 25%;
-  background-color: rgba(224, 48, 48, 0.814);
+  background-color: #bb1515d9;
 }
 
 #formularioBox {

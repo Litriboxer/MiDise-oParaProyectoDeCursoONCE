@@ -29,9 +29,5 @@ document.addEventListener("keyup", e => {
   }
 });
 
-function playOn() {
-  var audio = new Audio("/multimedia/sonidos/clickSound.mp3");
-  audio.play();
-}
 
 
